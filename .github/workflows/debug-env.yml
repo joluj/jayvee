@@ -2,9 +2,9 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-only
 
-name: This is an example
+name: Debug Workflow
 
-on: [workflow_dispatch]
+on: [workflow_dispatch, push]
 
 jobs:
   one:
